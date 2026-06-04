@@ -1,6 +1,6 @@
 # Search and Rescue (S+R)
 
-![OhBuoy - stack trace ocean](assets/ohbuoy-stack-trace-ocean.png)
+![Search and Rescue orientation toolkit](assets/search-and-rescue-orientation-toolkit.png)
 
 Search and Rescue (S+R) is the full NodAIity orientation toolkit.
 
