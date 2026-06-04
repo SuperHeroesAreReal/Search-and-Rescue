@@ -1,0 +1,66 @@
+# Gradle
+.gradle/
+build/
+
+# Kotlin / Java
+out/
+*.class
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local config
+local.properties
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution artifacts
+cli/build/
+app/build/
+core/build/
+
+# Kotlin daemon
+.kotlin/
+
+# Environment / secrets
+.env
+.env.*
+google-services.json
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Mac/Linux weirdness
+.AppleDouble
+.LSOverride
+
+# Windows weirdness
+Desktop.ini
+
+# Generated distributions
+*.zip
+*.tar
+*.gz
+
+# AI/tooling caches
+.cache/
+tmp/
+
+.idea/
