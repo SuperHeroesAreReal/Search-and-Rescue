@@ -16,8 +16,9 @@ AIluminode -> How should I proceed?
 
 This repository contains the runnable OhBuoy implementation, full-stack documentation, release-hardening evidence, and S+R benchmark plans.
 
-Related standalone tool:
+Related standalone tools:
 
+- [OhBuoy](https://github.com/SuperHeroesAreReal/ohbuoy)
 - [AIluminode](https://github.com/SuperHeroesAreReal/AIluminode)
 
 ---
