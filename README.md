@@ -14,7 +14,7 @@ Plotter    -> Where am I?
 AIluminode -> How should I proceed?
 ```
 
-This repository contains the runnable OhBuoy implementation, full-stack documentation, release-hardening evidence, and S+R benchmark plans.
+This repository contains the runnable OhBuoy implementation, full-stack documentation, release-hardening evidence, and supporting research notes.
 
 Related standalone tools:
 
@@ -91,13 +91,6 @@ OhBuoy is an independently deployable continuity instrument and a pane in **Sear
 
 S+R combines independently wieldable orientation panes without turning them into a fixed pipeline or shared runtime. Use OhBuoy alone when the question is route continuity; use the smallest useful Glass Stack when the terrain needs more illumination.
 
-Explore the current S+R release and benchmark evidence:
-
-- [S+R Release Hardening](docs/S+R%20Release%20Hardening%201.md)
-- [S+R Test 1: Prove Orientation](docs/S+R%20Test%201.md)
-- [S+R Test 2: Measure Work Saved](docs/S+R%20Test%202.md)
-- [S+R Test 3: Doctrine Propagation](docs/S+R%20Test%203.md)
-
 Toolkit questions:
 
 ```text
@@ -135,36 +128,7 @@ if terrain feels stale
 
 ---
 
-## Orientation Before Retrieval
-
-OhBuoy is part of the broader NodAIity orientation research effort.
-
-Current NodAIity doctrine explores the idea that many AI failures may occur before retrieval rather than during reasoning.
-
-Orientation does not replace retrieval or reasoning.
-
-Orientation helps determine:
-
-- where the system is
-- which direction it should face
-- which terrain is active
-- which routes should remain closed
-
-Core doctrine:
-
-```text
-Don't reason harder.
-Orient first.
-
-Don't run faster.
-Follow the compass.
-```
-
-Compass does not choose direction. Compass reveals directional pressure already present in the terrain.
-
----
-
-## Expected V0 Terrain
+## Example Output
 
 ```text
 TRACE startup_4812
@@ -244,7 +208,7 @@ Protect saved memory; inspect adjacent route logic without modifying it.
 
 ---
 
-## V2 Compass
+## Compass
 
 Compass compares declared propagation routes.
 
@@ -337,7 +301,7 @@ Run RECCE doctrine tests:
 
 ---
 
-## Current Shape
+## Instrument Shape
 
 ```text
 ohbuoy = observes terrain
@@ -346,56 +310,18 @@ RECCE = proves field discipline
 Plotter = position instrument
 AIluminode = public posture-before-action orientation instrument
 EEG = internal AIluminode scan mode for route polarity
-larger cognition layers may signpost terrain
 ```
-
-Markers, signposts, and durable topology annotations belong in a larger cognition layer, not in the scanner.
-
-Branch A is the current preferred orientation stack for validation:
-
-```text
-Prompt
-→ Stance
-→ Compass
-→ Plotter
-→ AIluminode
-→ Retrieval
-→ Reasoning
-→ Response
-```
-
-Branch A preserves the distinction:
-
-```text
-Compass = bearing = Which way should I face?
-Plotter = position = Where am I?
-```
-
-The terrain directs Compass like a magnet.
-
-Compass reveals directional pressure already present in the terrain.
-
-See [BranchA.md](docs/BranchA.md).
 
 ---
 
-## Evidence Status
+## Release Evidence
 
-Current evidence ladder:
+Current release evidence:
 
-```text
-Paula
-→ controlled packet proof-of-gate
-→ CPO changes behavior before retrieval
-
-Orientation Testbed Round 1
-→ behavior-change benchmark
-→ unknown and historical terrain pressure
-
-Orientation Testbed Round 2
-→ future paired measurement
-→ work saved
-```
+- [S+R Release Hardening](docs/S+R%20Release%20Hardening%201.md)
+- [S+R Test 1: Prove Orientation](docs/S+R%20Test%201.md)
+- [S+R Test 2: Measure Work Saved](docs/S+R%20Test%202.md)
+- [S+R Test 3: Doctrine Propagation](docs/S+R%20Test%203.md)
 
 Current caveat:
 
@@ -404,17 +330,16 @@ Current results demonstrate behavior change before retrieval and early work-redu
 They do not yet support broad drift-reduction claims.
 ```
 
-The first win is better orientation.
-
-The next measured win is work avoided.
-
 ---
 
-## Related
+## Research Notes
 
-Part of **Search and Rescue (S+R)**, the full NodAIity orientation toolkit.
+Supporting research and historical validation material lives in `docs/` and is not required to use S+R:
 
-OhBuoy can be used independently or alongside other orientation instruments. The toolkit shows how the instruments relate; it does not create a shared runtime, mandatory stack, or ownership chain.
+- [Branch A background research](docs/BranchA.md)
+- [OhBuoy V0 development record](docs/OhBuoyV0.md)
+- [OhBuoy V2 Compass development record](docs/OhBuoyV2.md)
+- [AIluminode development record](docs/AIluminode.md)
 
 ---
 
