@@ -61,6 +61,23 @@ the scanner must float above terrain, not become the terrain
 
 S+R is the full orientation toolkit. The current runnable runtime surface includes OhBuoy, RECCE, Compass, Plotter documentation, and AIluminode orientation scans.
 
+Current full-stack launcher:
+
+```text
+sr-full-orientation.bat
+-> OhBuoy continuity pulse
+-> AIluminode posture scan
+-> RECCE bounded reconnaissance
+```
+
+Instrument-level launchers:
+
+```text
+sr-ohbuoy.bat      -> OhBuoy / Compass runtime surface
+ailuminode.bat     -> standalone AIluminode posture scan
+recce.bat          -> RECCE guidance surface
+```
+
 Build the local S+R CLI runtime:
 
 ```powershell
