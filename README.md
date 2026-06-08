@@ -57,15 +57,17 @@ the scanner must float above terrain, not become the terrain
 
 ---
 
-## Use
+## Install S+R Runtime Surface
 
-Build the local CLI package:
+S+R is the full orientation toolkit. The current runnable runtime surface in this repository is the OhBuoy CLI, which carries the continuity scanner plus Compass and AIluminode scan modes.
+
+Build the local S+R CLI runtime:
 
 ```powershell
 .\gradlew.bat :cli:installDist
 ```
 
-Run the scanner:
+Run the S+R continuity scanner:
 
 ```powershell
 .\cli\build\install\ohbuoy\bin\ohbuoy.bat startup
