@@ -128,6 +128,66 @@ if terrain feels stale
 
 ---
 
+## Side Corridor Doctrine
+
+Models are often capable of solving adjacent corridor problems.
+
+Capability is not authorization.
+
+The existence of a valid side-corridor fix does not make that fix the current objective.
+
+When a side corridor is observed:
+
+```text
+Leave a sign.
+Follow the pressure.
+```
+
+Orientation provides illumination. Orientation does not provide permission.
+
+Blinkers do not reduce awareness. They prevent awareness from becoming unauthorized inference.
+
+Models may observe adjacent terrain, but they may not reason over or act inside unauthorized corridors.
+
+Awareness is preserved. Action is constrained.
+
+S+R reduces inference spent on unauthorized corridors, adjacent objectives, speculative fixes, terrain rediscovery, and grand unified cleanup attempts. Reasoning pressure stays focused on the active objective.
+
+Side-corridor observations should not be discarded. They may be preserved as Plotter markers, Librarian notes, or future Collector relevance links.
+
+The side door is not entered now. The sign remains for later.
+
+Packet metric:
+
+```text
+Corridors Observed: X
+Corridors Entered: Y
+```
+
+Desired outcome:
+
+```text
+Observed > Entered
+```
+
+A clean S+R run should demonstrate broad awareness and narrow execution. RECCE bleed is indicated when unauthorized observed corridors become entered corridors.
+
+Compressed doctrine:
+
+```text
+Observe broadly.
+Reason narrowly.
+Act locally.
+Leave a sign.
+Follow the pressure.
+```
+
+Librarian and Collector remain outside the S+R instrument stack as governance/archive postures.
+
+Full note: [Side Corridor Doctrine](docs/Side%20Corridor%20Doctrine.md)
+
+---
+
 ## Example Output
 
 ```text
