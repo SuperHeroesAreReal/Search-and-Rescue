@@ -74,7 +74,7 @@ Instrument-level launchers:
 
 ```text
 sr-ohbuoy.bat      -> OhBuoy / Compass runtime surface
-ailuminode.bat     -> standalone AIluminode posture scan
+sr-ailuminode.bat  -> AIluminode posture scan
 recce.bat          -> RECCE guidance surface
 ```
 
@@ -105,7 +105,7 @@ Equivalent scan form:
 Optional AIluminode posture scan mode in this repo:
 
 ```powershell
-.\cli\build\install\ohbuoy\bin\ohbuoy.bat eeg "Refactor Paula EPUB source handling without touching memory save logic"
+.\sr-ailuminode.bat "Refactor Paula EPUB source handling without touching memory save logic"
 ```
 
 Run standalone RECCE guidance:

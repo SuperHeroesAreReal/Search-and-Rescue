@@ -14,7 +14,7 @@ call "%~dp0sr-ohbuoy.bat" startup
 
 echo.
 echo [2/3] AIluminode
-call "C:\digitalJungleTours\coding\NodAIity\AIluminode\ailuminode.bat" scan "%PROMPT%"
+call "%~dp0sr-ailuminode.bat" "%PROMPT%"
 
 echo.
 echo [3/3] RECCE
