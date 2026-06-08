@@ -18,7 +18,7 @@ call "%~dp0sr-ailuminode.bat" "%PROMPT%"
 
 echo.
 echo [3/3] RECCE
-call "C:\digitalJungleTours\coding\NodAIity\Search-and-Rescue\recce.bat"
+call "%~dp0sr-recce.bat"
 
 echo.
 echo ==============================

@@ -75,7 +75,7 @@ Instrument-level launchers:
 ```text
 sr-ohbuoy.bat      -> OhBuoy / Compass runtime surface
 sr-ailuminode.bat  -> AIluminode posture scan
-recce.bat          -> RECCE guidance surface
+sr-recce.bat       -> RECCE guidance surface
 ```
 
 Build the local S+R CLI runtime:
@@ -111,7 +111,7 @@ Optional AIluminode posture scan mode in this repo:
 Run standalone RECCE guidance:
 
 ```powershell
-.\recce.bat
+.\sr-recce.bat
 ```
 
 ---
