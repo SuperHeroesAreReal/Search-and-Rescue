@@ -14,7 +14,7 @@ Plotter    -> Where am I?
 AIluminode -> How should I proceed?
 ```
 
-This repository contains the runnable OhBuoy implementation, full-stack documentation, release-hardening evidence, and supporting research notes.
+This repository contains the runnable S+R runtime surface, full-stack documentation, release-hardening evidence, and supporting research notes.
 
 Related standalone tools:
 
@@ -59,7 +59,7 @@ the scanner must float above terrain, not become the terrain
 
 ## Install S+R Runtime Surface
 
-S+R is the full orientation toolkit. The current runnable runtime surface in this repository is the OhBuoy CLI, which carries the continuity scanner plus Compass and AIluminode scan modes.
+S+R is the full orientation toolkit. The current runnable runtime surface includes OhBuoy, RECCE, Compass, Plotter documentation, and AIluminode orientation scans.
 
 Build the local S+R CLI runtime:
 
@@ -67,7 +67,13 @@ Build the local S+R CLI runtime:
 .\gradlew.bat :cli:installDist
 ```
 
-Run the S+R continuity scanner:
+Run the full S+R orientation surface:
+
+```powershell
+.\sr-full-orientation.bat "Inspect the active task before acting"
+```
+
+Run OhBuoy as the S+R continuity instrument:
 
 ```powershell
 .\cli\build\install\ohbuoy\bin\ohbuoy.bat startup
@@ -83,6 +89,12 @@ Optional AIluminode posture scan mode in this repo:
 
 ```powershell
 .\cli\build\install\ohbuoy\bin\ohbuoy.bat eeg "Refactor Paula EPUB source handling without touching memory save logic"
+```
+
+Run standalone RECCE guidance:
+
+```powershell
+.\recce.bat
 ```
 
 ---
