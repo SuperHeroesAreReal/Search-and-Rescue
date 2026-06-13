@@ -23,6 +23,47 @@ Related standalone tools:
 
 ---
 
+## S+R Rule: Orientation Before Action
+
+When starting a new chat, session, or model window, resuming after compaction or a rate-limit interruption, or receiving a new packet, begin by using the available S+R orientation tools before reasoning or implementation.
+
+Do not assume prior state.
+
+At minimum, establish:
+
+- active terrain / current corridor
+- owning authority / active packet
+- adjacent pressure
+- known drift, bleed, or howler risks
+- permitted action
+- non-permitted action
+
+If S+R tools are available, use them rather than inferring the answers.
+
+The preferred full-stack entry point is:
+
+```powershell
+.\sr-full-orientation.bat "Describe the active task and packet"
+```
+
+Targeted launchers may be used when a specific pressure appears during work:
+
+```text
+sr-ohbuoy.bat      -> continuity / route pulse
+sr-ailuminode.bat  -> posture / route polarity
+sr-recce.bat       -> bounded reconnaissance
+```
+
+If unexpected pressure, side-corridor evidence, drift, bleed, or a howler appears during execution, pause and perform another orientation pass before continuing.
+
+Orientation is not optional. It is the gate before reasoning and implementation.
+
+```text
+Don't remember. Re-orient.
+```
+
+---
+
 ## Runnable Continuity Instrument
 
 OhBuoy is a lightweight continuity scanner.

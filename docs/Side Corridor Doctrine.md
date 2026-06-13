@@ -41,6 +41,28 @@ Orientation does not provide permission.
 
 ---
 
+## Reorientation Gate
+
+Start or resume work with an S+R orientation pass when:
+
+- a new chat, session, or model window begins
+- context has been compacted or significantly lost
+- a rate-limit interruption breaks continuity
+- a new packet becomes active
+- unexpected pressure, drift, bleed, side-corridor evidence, or a howler appears
+
+Do not reconstruct authority or position from memory when the tools are available.
+
+Establish active terrain, owning authority, adjacent pressure, known risks, permitted action, and non-permitted action before continuing.
+
+```text
+Don't remember. Re-orient.
+```
+
+Orientation is the gate before reasoning and implementation.
+
+---
+
 ## Blinker Refinement
 
 The purpose of blinkers is not to reduce awareness.
